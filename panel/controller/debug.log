@@ -1,0 +1,5 @@
+2023-11-24 14:46:05 Update Query: UPDATE listed_vehicles SET status = 'confirmed' WHERE VehicleID = 1
+2023-11-24 14:49:34 Update Query: UPDATE listed_vehicles SET status = 'rejected' WHERE VehicleID = 1
+2023-11-24 14:49:54 Update Query: UPDATE listed_vehicles SET status = 'confirmed' WHERE VehicleID = 1
+2023-11-24 14:49:56 Update Query: UPDATE listed_vehicles SET status = 'rejected' WHERE VehicleID = 1
+2023-11-24 14:49:59 Update Query: UPDATE listed_vehicles SET status = 'confirmed' WHERE VehicleID = 1
