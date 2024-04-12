@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            /* Hide default radio button */
+            input[type="radio"] {
+              display: none;
+            }
+            
+            /* Style for the label with icons */
+            .icon-radio {
+              display: inline-block;
+              cursor: pointer;
+              font-size: 24px;
+              margin-right: 10px;
+            }
+          
+            /* Style for checked icon */
+            .icon-radio.checked {
+              color: #007bff; /* Change color for checked icon */
+            }
+          </style>
+    </head>
+        <body>
+            
+
+              
+              <!-- Radio inputs with labels as icons -->
+              <input type="radio" id="radio1" name="radios" value="option1">
+              <label for="radio1" class="icon-radio">
+                <i class="fas fa-circle"></i> <!-- Replace with your icon for unchecked state -->
+              </label>
+              
+              <input type="radio" id="radio2" name="radios" value="option2">
+              <label for="radio2" class="icon-radio">
+                <i class="fas fa-check-circle"></i> <!-- Replace with your icon for checked state -->
+              </label>
+              
+              <!-- Include Font Awesome for icons (Replace with your icon library if needed) -->
+              <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+              
+        </body>
+    
+</html>
